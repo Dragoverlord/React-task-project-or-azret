@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+.Product { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Product ul {
+    padding: 20px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 958px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+    text-align: center;
+}
+
+.auth-form {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.field {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+input {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(214, 45, 101);
+    text-align: center;
+}
